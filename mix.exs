@@ -29,6 +29,6 @@ defmodule Protobuf.Mixfile do
   end
 
   defp deps do
-    [{ :gpb, github: "tomas-abrahamsson/gpb" }]
+    [{ :gpb, github: "tomas-abrahamsson/gpb", tag: "3.17.2" }]
   end
 end
